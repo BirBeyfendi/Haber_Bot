@@ -1,0 +1,4 @@
+pyrogram==1.4.8
+beautifulsoup4
+requests
+feedparser==6.0.2
