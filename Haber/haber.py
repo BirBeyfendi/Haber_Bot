@@ -13,10 +13,6 @@ rss_feeds = {
 # Daha önce atılmış haberlerin tutulacağı sözlük
 old_entries = {}
 
-# Önceki döviz kurları
-previous_exchange_rates = {}
-last_exchange_check_time = None
-
 
 def send_to_telegram(chat_id, message, media_url):
     try:
