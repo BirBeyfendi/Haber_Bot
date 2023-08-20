@@ -10,7 +10,7 @@ import os
 API_ID = ''
 API_HASH = ''
 BOT_TOKEN = ''
-channel_id = ''
+channel_id = '' # @ ile başlayan kullanıcı adı koymalısınız.
 
 # Create the Telegram bot
 app = Client(":memory:", api_id=API_ID, api_hash=API_HASH, bot_token=BOT_TOKEN)
