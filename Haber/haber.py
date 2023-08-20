@@ -1,5 +1,4 @@
 from main import *
-import os
 
 # RSS listesi
 rss_feeds = {
