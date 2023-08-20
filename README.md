@@ -4,3 +4,4 @@
 ### ```API_ID``` , ```API_HASH``` ve ```BOT_TOKEN``` değerlerini yazarak botu çalıştırabilirsiniz ancak bot kanalda olmalı ve yetkisi de bulunmak zorundadır. Ek bir komut ihtiyacı kalmadan çalıştırılır çalıştırılmaz bot otomatik olarak haberleri atmaya başlar.
 ### Her zaman RSS beslemelerinde bulunan ```en son haberleri``` atar, yeni bir haber beslemelere düşünce ```otomatik olarak``` yeni haberi gönderir.
 ### Haberleri RSS beslemelerinden çekeceği zaman ve çektiği haberleri kanala gönderirken pek çok bekleme uygular ```(time.sleep)```, bu sayede botun flood wait e düşmesi büyük oranda engellenmiş olur.
+### Belirlemiş olduğunuz kanala haber biçimi olarak ```Normal``` ve ```Fotoğraflı``` olacak şekilde 2 çeşit olarak gönderir.
