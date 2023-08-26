@@ -12,7 +12,7 @@ rss_feeds = {
 # Daha önce atılmış haberlerin tutulacağı sözlük
 old_entries = {}
 
-
+# Haberleri kanala göndermek için kullanılan fonksiyon
 def send_to_telegram(chat_id, message, media_url):
     try:
         with app:
@@ -26,7 +26,7 @@ def send_to_telegram(chat_id, message, media_url):
     except Exception as e:
         print(f"Telegram Kanalına gönderilemedi: {e}")
 
-
+# RSS beslemelerini kontrol eden fonksiyon
 def check_feeds():
     new_entry_found = False
 
@@ -87,6 +87,6 @@ def check_feeds():
     # Wait for 90 seconds before checking the feeds again
     time.sleep(90)
 
-
+# RSS beslemelerini kontrol eden fonksiyonu döngüye sokan bir fonksiyon
 while True:
     check_feeds()
