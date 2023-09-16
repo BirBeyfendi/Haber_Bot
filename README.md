@@ -6,7 +6,7 @@
 ## Bot Hakkında Çeşitli Bilgiler:
 * Ek bir komut ihtiyacı kalmadan çalıştırılır çalıştırılmaz bot otomatik olarak haberleri atmaya başlar.
 * Her zaman RSS beslemelerinde bulunan ```en son haberleri``` atar, yeni bir haber beslemelere düşünce ```otomatik olarak``` yeni haberi gönderir.
-* Bot hiç bir zaman aynı haberi birden fazla göndermez, bir haberi kanala gönderdikten sonra yeni haberleri beklemeye başlar, beklerken 90 saniyede bir beslemeleri teker teker kontrol eder.
+* Bot hiç bir zaman ```aynı haberi birden fazla``` göndermez, bir haberi kanala gönderdikten sonra ```yeni haberleri``` beklemeye başlar, beklerken ```90 saniyede bir``` beslemeleri teker teker kontrol eder.
 * Haberleri RSS beslemelerinden çekeceği zaman ve çektiği haberleri kanala gönderirken pek çok bekleme ```(time.sleep)``` uygular, bu sayede botun flood wait e düşmesi büyük oranda engellenmiş olur.
 * Belirlemiş olduğunuz kanala haber biçimi olarak ```Normal``` ve ```Fotoğraflı``` olacak şekilde 2 çeşit olarak gönderir.
 ## Botun Haberleri Almak İçin Kullandığı Örnek RSS Beslemeleri:
