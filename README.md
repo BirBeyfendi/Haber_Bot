@@ -1,5 +1,5 @@
 # Haber Bot
-* Telegramda belirlediğiniz bir kanala RSS beslemelerinden alınan haberleri atmak için yazılmış bir bottur.
+* Telegramda belirlediğiniz bir kanala RSS beslemelerinden alınan haberleri atmak için yazılmış basit bir bottur.
 * Not: Haberlerin kanala atılması için haberlerin atılacağı kanalın id si yerine ```kullanıcı adını``` yazmalısınız, bot ise ```haberlerin atılacağı kanalda bulunmalı``` ve ```yetkili olmalıdır```.
 ## Gereksinimler:
 * ```API_ID``` , ```API_HASH``` ve ```BOT_TOKEN``` değerlerini yazarak botu çalıştırabilirsiniz ancak bot kanalda olmalı ve yetkisi de bulunmak zorundadır.
